@@ -15,7 +15,3 @@ After the loop finishes, the key is formatted into the serial format: XXXX-XXXX-
 The keygen logic was straightforward. However, when I tested with usernames longer than the magic string, it didn’t work. That’s when I realized that the loop iterates based on the maximum length between the username and the magic.
 
 Anyways, it was a great exercise. I had a lot of fun doing it.
-
-# Build
-gcc cmd-keygen.c -o cmd-keygen
-gcc gui-keygen.c -o gui-keygen -mwindows
